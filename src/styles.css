@@ -1,1 +1,153 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    flex-direction: row;
+}
+
+    .barra-superior{
+        font-family: 'Montserrat', sans-serif;
+        align-items: center;
+        background-color: #FFE400;
+    }
+    .logo img{
+        height: auto;
+        border-color: black;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .nombre-programa{
+        text-shadow: 1px 2px #fff;
+    }
+        .redes i{
+            color: black;
+        }
+
+.imagen-fondo img{
+   width: 90%;
+   height: auto;  
+}
+
+.datosPersonales{
+    background-image: url("assets/fondo8.jpg");
+    background-size: cover; /*hace que la img cubra todo el fondo */
+    color: antiquewhite;
+    background-color: #191A19;
+    border-color: #FFF323;
+}
+.parrafo-principal{
+    font-family: 'Bangers', cursive;
+    letter-spacing: 4px;
+    text-shadow: 0px 1px #FFF323;
+} 
+    
+.foto-perfil {
+    height: 10%;
+    margin-top:-100px;
+    margin-left: 15px;
+}
+.listaDatos{
+    list-style: none;
+}
+.nombre{
+    font-family: 'Indie Flower', cursive;
+    font-size: x-large;
+    letter-spacing: 5px;
+    text-shadow: 1px 2px #FFE400;
+}
+ .titulo{
+     color: #FFE400;
+     font-family: 'Indie Flower', cursive;
+    font-size: larger;
+    letter-spacing: 4px;
+    text-shadow: 0px 1px #FFF323;
+ }  
+.email{
+    font-family: 'Indie Flower', cursive;
+    font-size: large;
+    letter-spacing: 4px;
+    text-shadow: 0px 1px lightblue;
+}
+.tel{
+    color: #FFE400;
+    font-family: 'Lobster', cursive;
+    font-size: large;
+    letter-spacing: 3px;
+}
+
+    .acercaDe{
+        height: 50%;
+        padding: 5px;
+        font-size: medium;
+        flex-wrap: wrap;
+        margin-left: 30px;
+        width: 70%;
+    }
+
+.experiencia{
+    background-image: url("assets/fondo4.png");
+    background-size: cover; 
+    background-color: #191A19;
+    margin-top: 1px;
+    }
+    .card-header{
+        margin-bottom: 2px;
+    }
+   .trabajo{
+    height: 70%;
+   }
+   .empresa h6{
+    font-family: 'Indie Flower', cursive;
+   }
+
+
+.secundario{
+    background: #EEEBDD;
+    height: 90%;
+}
+.educacion{
+    background-image: url("assets/fondo4.png");
+    background-size: cover;
+}
+.skills{
+    background-image: url("assets/fondo4.png");
+    background-size: cover; 
+}
+    .soft-s h6{
+        color:#FFE400;
+        font-family: 'Rampart One', cursive;
+        letter-spacing: 2px;
+    }
+    .hard-s h6{
+        color:#FFE400;
+        font-family: 'Rampart One', cursive;
+        letter-spacing: 2px;
+    }
+
+@media (min-width: 576px) {
+    .foto-perfil{
+       margin-bottom: -80px;
+    }
+}
+
+
+
+        
+
+    
+    
+            
+            
+
+
+        
+
+         
+
+
+       
+
+    
+
+
