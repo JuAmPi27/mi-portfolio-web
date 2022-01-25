@@ -8,21 +8,35 @@
             <a href="#"><i class="fas fa-edit text-info fs-6 mx-2"></i></a>
             <a href="#"><i class="far fa-window-close text-info fs-6"></i></a>
         </div>
-        <p class="parrafo-principal fs-6 d-flex justify-content-md-center my-5 flex-fill text-warning">Profesional, responsable, eficiente y recién certificado como Full Stack developer JR. Con muchas ganas de introducirme en este hermoso mundo del desarrollo web desde el lugar que me toque y poder formar parte de proyectos que me sigan formando tanto personal como profesionalmente. Soy organizado, comunicativo, con buenas habilidades de trabajo en equipo y de aprendizaje rápido.
+        <p class="parrafo-principal fs-6 d-flex justify-content-md-center my-5 flex-fill text-warning">
+            {{miPorfolio.acerca}}
         </p>
     </div>
     <hr>
-    <div class="row d-flex">
+    <div class="row d-flex justify-content-start">
         <div class="col-5 d-flex">
              <ul class="listaDatos">
                  <li class="ms-4 mt-4">
                     <a href="#"><i class="fas fa-edit text-warning fs-6"></i></a>
                     <a href="#"><i class="far fa-window-close text-warning fs-6 ms-1"></i></a>
                 </li>
-                <li class="nombre ms-5 mt-4 vw-100 fw-bolder text-uppercase text-info fs-md-6 fs-lg-3">Barnetche Juan Pablo</li>
-                <li class="titulo ms-3 vw-100"><strong>Full Stack Developer Jr</strong></li>
-                <li class="email mt-1 badge bg-warning text-dark"><a href="#" class="link-dark">jpbarnetche27@gmail.com</a></li>
-                <li class="tel ms-5 mt-2 vw-100"><i class="fas fa-mobile-alt text-info mx-2"></i>11-5944-2917</li>
+                <li class="nombre ms-5 mt-4 vw-100 fw-bolder text-uppercase text-info fs-md-6 fs-lg-3">
+                    {{miPorfolio.nombre}}
+                </li>
+                <li class="titulo ms-3 vw-100">
+                    <strong>
+                        {{miPorfolio.certificado}}
+                    </strong>
+                </li>
+                <li class="email mt-1 badge bg-warning text-dark">
+                    <a href="#" class="link-dark">
+                        {{miPorfolio.email}}
+                    </a>
+                </li>
+                <li class="tel ms-5 mt-2 vw-100">
+                    <i class="fas fa-mobile-alt text-info mx-2"></i>
+                    {{miPorfolio.tel}}
+                </li>
             </ul>
         </div>
     </div>
